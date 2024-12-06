@@ -1,0 +1,233 @@
+/* GENERAL */
+
+body {
+    background-color: black;
+    font-family: "Arial";
+    color: white;
+}
+
+.white {
+    border: none;
+    height: 2px;
+    background-color: white;
+}
+
+.medio{
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* MENÚ */
+
+.menu {
+    display: flex;
+    justify-content: left; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 100%;
+}
+
+.menu a {
+    color: white;
+}
+
+.menu img {
+    height: 200px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* INDEX.php */
+
+.img-cabecera-equipos {
+    height: auto;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 100%;
+}
+
+
+.img-cabecera-equipos-img {
+    width: 70%;
+}
+
+.img-cabecera {
+    height: auto;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 80%;
+    margin-left: 10%;
+}
+
+.img-cabecera img {
+    width: 25%;
+    margin-right: 2%;
+}
+
+#tabla-clasificacion {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#tabla-clasificacion td {
+    border: 1px solid #ddd;
+}
+
+#tabla-clasificacion select {
+    background-color: grey !important;
+    border: none !important;
+}
+
+#tabla-clasificacion caption {
+    border: 1px solid black;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* EQUIPOS.php */
+
+.equipos {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.equipos a {
+    display: block;
+    text-align: center;
+}
+
+.equipos a img {
+    width: 97%;
+    margin-bottom: 2%;
+    height: auto;
+    border-radius: 7%;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* EQUIPO.php */
+
+.banner-equipo{
+    text-align: center;
+    width: 100%;
+}
+
+.banner-equipo h1{
+    text-transform: uppercase;
+}
+
+.escudo-equipo{
+    width: 20%;
+    height: auto;
+}
+
+.jugador-equipo {
+    display: flex;
+    width: 80%;
+    height: auto;
+    align-items: center;
+    border: 10px solid white;
+    border-image-slice: 1;
+    border-radius: 20px;
+}
+
+.jugador-equipo img {
+    height: 120px;
+}
+
+.img-jugador {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.info-jugador {
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+.stats-jugador{
+    margin-bottom: 8%;
+}
+
+.stats-jugador table {
+    border-collapse: separate;
+    border-spacing: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.num-stats-jugador{
+    text-align: center;
+}
+
+/* Contenedor de todos los jugadores */
+.jugadores-container {
+    display: flex;
+    flex-wrap: wrap; /* Esto permite que los elementos se ajusten a nuevas líneas */
+    justify-content: center; /* Centra los elementos en el contenedor */
+    gap: 20px; /* Espacio entre los elementos */
+}
+
+/* Contenedor de cada jugador */
+.container-jugadores-equipo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Este valor se puede ajustar según el diseño deseado */
+    margin-bottom: 1%;
+}
+
+/* Contenedor de cada jugador */
+.container-jugadores-equipo2 {
+    width: 45%; /* Define el ancho del contenedor para cada jugador */
+    display: flex;
+    justify-content: center; /* Centra el jugador dentro de su contenedor */
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* JUGADORES.php */
+
+.escudo-jugadores {
+    align-items: center;
+    justify-content: center;
+}
+
+.escudo-jugadores img {
+    width: 50px;
+    height: auto;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/* ESTADISTICAS.php */
+
+.tabla-estadistica {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.tabla-estadistica td {
+    border: 1px solid white;
+}
+
+.tabla-estadistica th {
+    border: 1px solid white;
+}
+
+.tarjetas {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
